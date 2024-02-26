@@ -16,9 +16,9 @@ class ExampleTest extends TestCase {
      */
     public function test_the_application_returns_a_successful_response(): void
     {
-        $response = $this->get('/'); //Путь, где будем проводить сам тест, а теперь осталось скачать саму разметку
+        $response = $this->get('/');
 
-        $response->assertStatus(200); //Всё работает
+        $response->assertStatus(200);
     }
 
 
